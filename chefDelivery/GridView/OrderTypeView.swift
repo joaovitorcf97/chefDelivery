@@ -15,7 +15,6 @@ struct OrderTypeView: View {
             Image(orderType.image)
                 .resizable()
                 .scaledToFit()
-                .cornerRadius(10)
                 .fixedSize(horizontal: false, vertical: true)
             Text(orderType.name)
                 .font(.system(size: 10))
